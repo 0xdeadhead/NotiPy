@@ -38,4 +38,6 @@ def main():
                         cprint("[!] Token Unauthorized.Try after requesting New Token","red")
                 except:
                         cprint("[!] Some error occured","red")
-main()
+
+if __name__=="__main__":
+        main()
