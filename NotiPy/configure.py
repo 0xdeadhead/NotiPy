@@ -1,4 +1,4 @@
-from db import DB
+from NotiPy.db import DB
 import os
 from termcolor import colored,cprint
 
