@@ -24,7 +24,7 @@ if args.poll:
         import poll
 if args.configure:
         import configure
-else:
+if args.message:
         db_obj=DB()
         try:
                 bot=Bot(token=db_obj.get_api_key())
