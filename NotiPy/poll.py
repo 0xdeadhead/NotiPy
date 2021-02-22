@@ -1,4 +1,4 @@
-import db
+import NotiPy.db as db
 import telegram
 from termcolor import cprint
 from telegram.ext import Updater,CommandHandler,MessageHandler,Filters,ConversationHandler
