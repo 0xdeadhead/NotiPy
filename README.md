@@ -13,7 +13,7 @@ Type these below commands in the terminal:
 <br><br><br>
 
 # Configuring the tool :
-We need a Telgram Bot API token for which the tool sends the Notification<br>
+We need a Telegram Bot API token for which the tool sends the Notification<br>
 You can read more about [How to create a Telegram bot here.](https://core.telegram.org/bots#6-botfather)
 <br>
 After acquiring Bot API Token,We need to configure our tool to use the token by typing below commands.<br>
