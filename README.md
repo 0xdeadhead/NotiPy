@@ -37,8 +37,9 @@ Specify the message to send with "```-M```"  flag<br>
 
 Send different Messages according to return status from previous Command<br>
 
-```$ Commandwhichdoesnotexist && NotiPy -M "Process ran Sucessfully" || NotiPy -M "Failed" ```
-
+```$ Commandwhichdoesnotexist && NotiPy -M "Process ran Sucessfully" || NotiPy -M "Failed" ```<br><br><br>
+# Uninstalling NotiPy:
+```$ pip3 uninstall NotiPy```
 
 
 
