@@ -12,6 +12,7 @@ def register(update,context):
 def forget(update,context):
     db_obj=db.DB()
     db_obj.del_chat_id(update.message.chat.id)
+    cprint("[*] Removed {}".format(update.message.chat.first_name),"yellow")
     update.message.reply_text("Unsubscribed successfully")
 
 def msg_handler(update,context):
@@ -21,8 +22,10 @@ def check_pwd(update,context):
     db_obj=db.DB()
     if update.message.text==db_obj.get_pwd():
         db_obj.put_chat_id(update.message.chat.id)
+        cprint("[*] Added {}".format(update.message.chat.first_name),"yellow")
         update.message.reply_text("Registered successfully")
     else:
+        cprint("[*] Failed to add {}".format(update.message.chat.first_name),"yellow")
         update.message.reply_text("Failed registration.Try Again")
     return ConversationHandler.END
 
