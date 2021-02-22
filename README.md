@@ -5,7 +5,7 @@ This tool requires python3, pip3 to be installed in the system.
 # Installation : 
 Type these below commands in the terminal:
 <br>
-```git clone https://github.com/da3m0n-28/NotiPy.git```
+```git clone https://github.com/0xdeadhead/NotiPy.git```
 <br>
 ```cd NotiPy```
 <br>
